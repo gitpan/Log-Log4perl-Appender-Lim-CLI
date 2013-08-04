@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Log-Log4perl-Appender-Lim-CLI
-version:            0.13
+version:            0.14
 abstract:           A Log4perl appender for Lim CLI
 author:
     - Jerry Lundström <lundstrom.jerry@gmail.com>
@@ -9,10 +9,10 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
     Log::Log4perl:  1
     Test::More:     0
+requires:
+    Log::Log4perl:  1
 resources:
     bugtracker:  http://github.com/jelu/log-log4perl-appender-lim-cli/issues
     homepage:    http://github.com/jelu/log-log4perl-appender-lim-cli/wiki
